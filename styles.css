@@ -1,8 +1,3 @@
-.counter-app {
-  position: relative;
-  z-index: 999;
-}
-
 video {
   object-fit: cover;
   width: 100vw;
@@ -11,4 +6,55 @@ video {
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+.counter-app {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  translate: translate(-50%, -50%);
+  border: 4px solid #ffbe40;
+  border-radius: 1rem;
+  width: fit-content;
+  padding: 2rem 5rem;
+  box-shadow: ;
+  z-index: 999;
+}
+
+.counter-app {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.counter-app p {
+  font-size: 40px;
+}
+
+.counter-app p:last-child {
+  font-size: 80px;
+}
+
+.btn1,
+.btn2 {
+  border-radius: 50%;
+  opacity: 1;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: #69d2cd;
+  color: #480048;
+}
+
+.btn2 {
+  background-color: #99173c;
+  color: #d3ce3d;
+}
+
+.btn1:hover,
+.btn2:hover {
+  width: 90px;
+  height: 90px;
 }

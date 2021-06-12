@@ -12,9 +12,12 @@
 <body>
   <video autoplay muted loop src="assets/bg-video.mp4" id="bgvid"></video>
   <div class="counter-app">
-    <p>Counter</p>
-    <button>Add counter</button>
-    <button>Decrease counter</button>
+    <div class="text">
+      <p>Counter</p>
+      <p id="value">0</p>
+    </div>
+    <button class="btn1" id="btn1" onclick="add()">Add Count <br />+</button>
+    <button class="btn2" id="btn2" onClick="sub()">Low Count <br />-</button>
   </div>
   <script src="main.js"></script>
 </body>
