@@ -28,9 +28,9 @@ btn3.addEventListener('click', function () {
 // Changing answer font conditionally
 function fontColorText() {
   if (counter > 0) {
-    answerValue.style.color = '#c7f464';
+    answerValue.style.color = '#76FF03';
   } else if (counter < 0) {
-    answerValue.style.color = '#f23e02';
+    answerValue.style.color = '#f44336';
   } else {
     answerValue.style.color = '#000';
   }

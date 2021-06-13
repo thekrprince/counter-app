@@ -11,15 +11,20 @@ video {
 .counter-app {
   position: relative;
   top: 50%;
-  left: 50%;
-  translate: translate(-50%, -50%);
+  transform: translateY(30%);
+  margin: auto;
   background: rgba(0, 0, 0, 0.5);
   border: 4px solid #ffbe40;
   border-radius: 1rem;
   width: fit-content;
   padding: 2rem 5rem;
-  box-shadow: ;
   z-index: 999;
+}
+
+@media screen and (max-height: 700px) {
+  .counter-app {
+    transform: translateY(1%);
+  }
 }
 
 .counter-app {
