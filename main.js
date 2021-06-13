@@ -22,6 +22,7 @@ btn2.addEventListener('click', function () {
 btn3.addEventListener('click', function () {
   counter = 0;
   answerValue.innerHTML = counter;
+  fontColorText();
 });
 
 // Changing answer font conditionally
