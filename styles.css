@@ -58,3 +58,9 @@ video {
   width: 90px;
   height: 90px;
 }
+
+.btn3 {
+  margin: 1rem;
+  border: 2px solid #f9d423;
+  background-color: #f9d423;
+}
